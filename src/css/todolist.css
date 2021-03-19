@@ -1,0 +1,32 @@
+.todolist{
+    justify-content: center;
+}
+.todolist__heading{
+    text-align: center;
+    padding-bottom: 40px;
+    background-color: teal;
+}
+.todolist__add{
+    display: flex;
+    justify-content: center;
+}
+.todolist__all{
+    display: flex;
+    justify-content: space-between;
+    max-width: 99%;
+    height: max-content;
+    background-color: whitesmoke;
+    padding: 8px;
+    margin-top: 8px;
+}
+.todolist__all:last-child{
+    margin-bottom: 8px;
+}
+.todolist__todoinfo{
+    color:black; 
+    font-family: 'Lato', sans-serif; 
+    font-size: 30px; 
+    font-weight: 300; 
+    line-height: 58px; 
+    margin: 0 0 58px; 
+}

@@ -1,0 +1,13 @@
+.home > h1{
+    text-align: center;
+    padding-bottom: 40px;
+    background-color: teal;
+}
+.home__addUser{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    height: 150px;
+}
